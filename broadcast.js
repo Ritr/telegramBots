@@ -2,7 +2,7 @@ const { Bot } = require("grammy");
 const fs = require("fs");
 const csv = require("csv-parser");
 
-const bot = new Bot("7115276113:AAFLkVfctU3QuesH6We_jVyw5peIcLMYRBc");
+const bot = new Bot("your token");
 const groupIds = [];
 let isRunning = false;
 let checkInterval;
