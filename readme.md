@@ -1,3 +1,6 @@
+## 替换机器人token
+  自行注册机器人后替换token即可，然后把机器人拉到群组中赋予管理员权限
+  
 ## 监控群敏感词：sensitive_words.js
 1. 在sensitive_words.txt文件里配置敏感词，一行一个敏感词
 2. 启动 sensitive_words.js 即可
