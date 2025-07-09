@@ -19,7 +19,7 @@ function containsSensitiveWord(text) {
     return uppercaseWords.some(word => uppercaseText.includes(word));
 }
 //Create a new bot
-const bot = new Bot("7103553610:AAEaPlWacoF96oAv-8Y0iWaRzq_v3tDI8vw");
+const bot = new Bot("your token");
 //This function would be added to the dispatcher as a handler for messages coming from the Bot API
 bot.on("message", async (ctx) => {
     //Print to console
